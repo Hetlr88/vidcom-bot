@@ -3,10 +3,10 @@ from bot.get_cfg import get_config
 
 class Config(object):
     # get a token from @BotFather
-    TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", "")
+    TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", "7445547849:AAHfX4_8TQ57cg71Q_l9ABoa6RfgfPWHgsE")
     # The Telegram API things
-    APP_ID = int(get_config("APP_ID", 12345))
-    API_HASH = get_config("API_HASH")
+    APP_ID = int(get_config("APP_ID", 23898744))
+    API_HASH = get_config("API_HASH", "0b13c810c80b548604650cbe3c3db0c3")
      # Get these values from my.telegram.org
     # array to store the channel ID who are authorized to use the bot
     AUTH_USERS = set(
